@@ -82,7 +82,7 @@ public class AirPollution extends AppCompatActivity {
                 .getString("lon", "") != "")) {
             url = "http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=" + getSharedPreferences("location", MODE_PRIVATE)
                     .getString("lat", "") + "&lon=" + getSharedPreferences("location", MODE_PRIVATE)
-                    .getString("lon", "") + "&appid=948986c084e7b519f342475da4166a9f";
+                    .getString("lon", "") + "&appid=";
         }
 
 
@@ -96,7 +96,7 @@ public class AirPollution extends AppCompatActivity {
             if (latlon == null || latlon.getStatus().equals(AsyncTask.Status.FINISHED)) {
                 latlon = new Getlatlon();
                 latlon.execute("http://api.openweathermap.org/geo/1.0/direct?q=" + getSharedPreferences("location", MODE_PRIVATE)
-                        .getString("Country", "") + "&appid=948986c084e7b519f342475da4166a9f");
+                        .getString("Country", "") + "&appid=");
             }
 
         }
@@ -117,7 +117,7 @@ public class AirPollution extends AppCompatActivity {
                                 if (latlon == null || latlon.getStatus().equals(AsyncTask.Status.FINISHED)) {
                                     latlon = new Getlatlon();
                                     latlon.execute("http://api.openweathermap.org/geo/1.0/direct?q=" + getSharedPreferences("location", MODE_PRIVATE)
-                                            .getString("Country", "") + "&appid=948986c084e7b519f342475da4166a9f");
+                                            .getString("Country", "") + "&appid=");
                                 }
 
                             }
