@@ -92,11 +92,11 @@ public class ViewWeather extends AppCompatActivity {
         if (getSharedPreferences("location", MODE_PRIVATE)
                 .getString("Country", "") != "") {
             url = "http://api.openweathermap.org/data/2.5/weather?q=" + getSharedPreferences("location", MODE_PRIVATE)
-                    .getString("Country", "") + "&appid=948986c084e7b519f342475da4166a9f&units=metric";
+                    .getString("Country", "") + "&appid=&units=metric";
         } else {
             url = "http://api.openweathermap.org/data/2.5/weather?lat=" + getSharedPreferences("location", MODE_PRIVATE)
                     .getString("lat", "") + "&lon=" + getSharedPreferences("location", MODE_PRIVATE)
-                    .getString("lon", "") + "&appid=948986c084e7b519f342475da4166a9f&units=metric";
+                    .getString("lon", "") + "&appid=&units=metric";
 
         }
         if (task == null || task.getStatus().equals(AsyncTask.Status.FINISHED)) {
