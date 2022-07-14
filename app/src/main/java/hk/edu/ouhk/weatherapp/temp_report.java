@@ -71,7 +71,7 @@ public class temp_report extends AppCompatActivity {
                 .getString("lon", "") != "")) {
             url = "http://api.openweathermap.org/data/2.5/onecall?lat=" + getSharedPreferences("location", MODE_PRIVATE)
                     .getString("lat", "") + "&lon=" + getSharedPreferences("location", MODE_PRIVATE)
-                    .getString("lon", "") + "&appid=948986c084e7b519f342475da4166a9f&units=metric";
+                    .getString("lon", "") + "&appid=&units=metric";
         }
         if (getSharedPreferences("location", MODE_PRIVATE)
                 .getString("Country", "") == "") {
@@ -83,7 +83,7 @@ public class temp_report extends AppCompatActivity {
             if (latlon == null || latlon.getStatus().equals(AsyncTask.Status.FINISHED)) {
                 latlon = new Getlatlon();
                 latlon.execute("http://api.openweathermap.org/geo/1.0/direct?q=" + getSharedPreferences("location", MODE_PRIVATE)
-                        .getString("Country", "") + "&appid=948986c084e7b519f342475da4166a9f");
+                        .getString("Country", "") + "&appid=");
             }
 
         }
