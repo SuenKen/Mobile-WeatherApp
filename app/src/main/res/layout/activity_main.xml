@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="40sp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="location"
+        android:text="@string/location" />
+
+    <Button
+        android:id="@+id/currentWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="viewWeather"
+        android:text="@string/current" />
+
+    <Button
+        android:id="@+id/todayWeather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="todayForcast"
+        android:text="@string/today" />
+
+    <Button
+        android:id="@+id/future"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="futureForcast"
+        android:text="@string/future" />
+
+    <Button
+        android:id="@+id/future2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="airPollution"
+        android:text="Air Pollution Forecast" />
+
+    <Button
+        android:id="@+id/future3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="report"
+        android:text="This week Weather Report" />
+    <Button
+        android:id="@+id/temo_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="temp_report"
+        android:text="This Week Temperature Report" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textSize="36sp" />
+
+</LinearLayout>

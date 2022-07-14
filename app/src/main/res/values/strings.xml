@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="main_title">WeatherApp</string>
+    <string name="location">Set default Location</string>
+    <string name="current">Check Current Weather</string>
+    <string name="today">Check Today Weather Forecast</string>
+    <string name="future">Check Future 7 days Weather Forecast</string>
+
+    <string name="weather">Weather : </string>
+    <string name="current_temp">Current temperature: </string>
+    <string name="min_temp">Minimum temperature : </string>
+    <string name="max_temp">Maximum temperature :</string>
+
+    <string name="morn_temp">Morning temperature :</string>
+    <string name="day_temp">Day temperature :</string>
+    <string name="eve_temp">Evening temperature :</string>
+    <string name="night_temp">Night temperature :</string>
+    <string name="feels_like">Apparent temperature :</string>
+    <string name="feels_like_morn">Morning Apparent temperature :</string>
+    <string name="feels_like_day">Day Apparent temperature :</string>
+    <string name="feels_like_eve">Evening Apparent temperature :</string>
+    <string name="feels_like_night">Night Apparent temperature :</string>
+
+    <string name="pressure">Pressure :</string>
+    <string name="pressureSea">Pressure(Sea) :</string>
+    <string name="pressureGround">Pressure(Ground) :</string>
+    <string name="humidity">Humidity :</string>
+    <string name="visibility">Visibility :</string>
+    <string name="windSpeed">Wind Speed :</string>
+    <string name="windDirection">Wind direction :</string>
+    <string name="windGust">Wind gust :</string>
+    <string name="clouds">Cloudiness :</string>
+    <string name="RainVolume1h">Rain volume(1h) :</string>
+    <string name="RainVolume">Rain volume :</string>
+    <string name="RainVolume3h">Rain volume(3h) :</string>
+    <string name="SnowVolume1h">Snow volume(1h) :</string>
+    <string name="SnowVolume">Snow volume :</string>
+    <string name="SnowVolume3h">Snow volume(3h) :</string>
+    <string name="SunriseTime">Sunrise time :</string>
+    <string name="SunsetTime">Sunset time :</string>
+    <string name="MoonriseTime">Moon rise time :</string>
+    <string name="MoonsetTime">Moon set time :</string>
+    <string name="update">Update time :</string>
+    <string name="pop">Probability of precipitation :</string>
+    <string name="uvi">The maximum value of UV :</string>
+    <string name="dew_point">Atmospheric temperature :</string>
+    <string name="moon_phase">Moon phase :</string>
+    <string name="more">More Detail</string>
+    <string name="forecasted">Time of the forecasted data :</string>
+</resources>
